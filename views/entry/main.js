@@ -2,7 +2,7 @@ import Vue from 'vue'
 import iView from 'iview'
 import config from 'config'
 import VueI18n from 'vue-i18n'
-import VueLocalStorage from 'vue-ls'
+import memoryStorage from 'vue-ls'
 import { sync } from 'vuex-router-sync'
 import zhLocaleIView from 'iview/dist/locale/zh-CN'
 import enLocaleIView from 'iview/dist/locale/en-US'
@@ -30,7 +30,7 @@ if (typeof window !== 'undefined') {
   })
 }
 
-Vue.use(VueLocalStorage, { namespace: config.storageNamespace })
+Vue.use(memoryStorage, { namespace: config.storageNamespace })
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({

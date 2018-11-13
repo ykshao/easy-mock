@@ -82,7 +82,7 @@ describe('test/controllers/project.test.js', () => {
           url: '/demo',
           description: 'demo',
           members: [soucheUser._id],
-          swagger_url: 'http://localhost:7400'
+          swagger_url: 'http://172.16.0.45:7400'
         })
 
       expect(res.body.success).toBe(true)

@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 
 const config = {
-  db: 'mongodb://localhost/test-easy-mock',
+  db: 'mongodb://172.16.0.45/test-easy-mock',
   blackList: {
     projects: ['222222222233333333331212'],
     ips: ['127.0.0.1']
