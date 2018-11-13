@@ -1,13 +1,13 @@
 {
   "port": 7300,
-  "host": "0.0.0.0",
+  "host": "172.16.0.45",
   "pageSize": 30,
   "proxy": false,
-  "db": "mongodb://localhost/easy-mock",
+  "db": "mongodb://172.16.0.45/mongodb-easy-mock",
   "unsplashClientId": "",
   "redis": {
     "port": 6379,
-    "host": "localhost"
+    "host": "172.16.0.45"
   },
   "blackList": {
     "projects": [],
